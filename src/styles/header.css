@@ -31,7 +31,7 @@
   height: 2.25rem;
   background: #964b00;
   z-index: -1;
-  transform: translateY(100%);
+  transform: translateY(30%);
   opacity: 0;
   transition: 0.4s;
   border-radius: 0.5rem;
@@ -54,17 +54,18 @@
 }
 
 .page-header ul li a {
-  padding: 4px 11px;
+  padding: 3px 10px;
   border-radius: 0.5rem;
   font-size: 18px;
 }
 
 .page-header .active-link {
-  background: black;
+  font-weight: 600;
+  text-shadow: 0 0 15px white;
 }
 
 .page-header:not(.active-link) ul li a:hover::before {
-  transform: translate(-10px, -8%);
+  transform: translate(-10px, -10%);
   opacity: 100%;
 }
 

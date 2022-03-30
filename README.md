@@ -4,6 +4,18 @@
 
 Website idea of a pet adoption page developed using GatsbyJS (which is a React-based open source framework) and some features from HTML, CSS and JavaScript.
 
+## Contact
+
+If you like this project and have interest in participating with any contribution/idea you can contact me:
+
+<div>
+  <a href = "mailto:ldsguths@inf.ufpel.edu.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/leonardoguths" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/leonardoguths" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</div>
+
+#
+
 ## 🚀 Quick start from Gatsby Standard Instructions
 
 1.  **Create a Gatsby site.**

@@ -1,0 +1,108 @@
+.page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.page-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.page-header .logo {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+
+.page-header .logo::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  width: 18rem;
+  height: 2.25rem;
+  background: #964b00;
+  z-index: -1;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}
+
+.page-header .logo:hover::before {
+  transform: translateY(0);
+  opacity: 100%;
+}
+
+.page-header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header ul li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.page-header ul li a {
+  padding: 4px 11px;
+  border-radius: 0.5rem;
+  font-size: 18px;
+}
+
+.page-header .active-link {
+  background: black;
+}
+
+.page-header:not(.active-link) ul li a:hover::before {
+  transform: translate(-10px, -8%);
+  opacity: 100%;
+}
+
+.page-header ul li:nth-child(1) a::before {
+  content: "";
+  position: absolute;
+  width: 4.8rem;
+  height: 1.8rem;
+  background: #964b00;
+  z-index: -1;
+  transform: translate(-10px, 30%);
+  opacity: 0;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}
+
+.page-header ul li:nth-child(2) a::before {
+  content: "";
+  position: absolute;
+  width: 4.6rem;
+  height: 1.8rem;
+  background: #964b00;
+  z-index: -1;
+  transform: translate(-10px, 30%);
+  opacity: 0;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}
+
+.page-header ul li:nth-child(3) a::before {
+  content: "";
+  position: absolute;
+  width: 5.8rem;
+  height: 1.8rem;
+  background: #964b00;
+  z-index: -1;
+  transform: translate(-10px, 30%);
+  opacity: 0;
+  transition: 0.4s;
+  border-radius: 0.5rem;
+}

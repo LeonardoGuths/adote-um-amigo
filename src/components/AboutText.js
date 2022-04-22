@@ -11,7 +11,6 @@ const AboutText = () => {
       triggerHook: 0,
     })
       .setPin(".about-title")
-      .addIndicators()
       .addTo(controller)
   })
 
